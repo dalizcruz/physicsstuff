@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+html {
+    font-family: 'Josefin Slab', serif;
+    background: url('../images/study.jpeg');
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+/*html is fun! */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 15px;
+    font-size: 20px;
+    align-items: flex-end;  
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+
+/*this creates space between the nav list items */
+nav li{
+    margin-left: 40px;
+    background-color: rgb(252, 252, 252);
+}
+
+
+nav a{
+    text-decoration: none;
+    font-weight: 1000;
+    color: rgb(229, 29, 29);
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.col{
+    padding: 20px;
+    width:50%;
+}
+
+/*style for law descriptions is here*/
+p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+div h1 {
+    font-size: 40px;
+    color: rgb(229, 29, 29);
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    color: rgb(219, 13, 219);
+}
